@@ -1,0 +1,40 @@
+# 📊 User Activity & Email Funnel Analysis
+
+Advanced SQL project simulating a real-world business case: analyzing user onboarding and engagement through email campaigns using raw, multi-source data.
+
+## 🔧 Tools & Technologies
+- **BigQuery SQL**
+- **Looker Studio** (for visualizations)
+
+## 🧠 Project Description
+
+This project combines account, session, and email-related data to analyze:
+
+- User onboarding dynamics
+- Email engagement funnel (sent → open → visit)
+- Country-level trends in user behavior
+- Time-based activity spikes and drops
+
+### 👇 Main SQL Features Used:
+- **CTEs**
+- **JOINs & UNION ALL**
+- **Window functions** (DENSE_RANK, SUM OVER)
+- **Date handling & aggregation**
+- **Cohort-style grouping**
+
+## 📈 Key Insights:
+- 🇺🇸 **United States** leads by total account registrations (12,000+)
+- 🇮🇹 **Italy** ranks highest by total email engagement
+- 📆 Peak engagement activity occurred in **December 2020**
+- 📉 Activity dropped steadily by **February 2021**
+
+## 📊 Dashboards (Looker Studio)
+Interactive report showing:
+- Country breakdown by account volume & message engagement
+- Funnel dynamics (sent/open/visit)
+- Temporal distribution of events
+
+> _You can request access to the dashboard or view selected screenshots in the `assets/` folder._
+
+## 📁 Repository Structure
+
