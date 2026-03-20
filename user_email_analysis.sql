@@ -131,4 +131,4 @@ SELECT
 FROM country_totals
 WHERE rank_total_country_account_cnt <= 10     -- Топ-10 по акаунтах
    OR rank_total_country_sent_cnt <= 10        -- або по email-ів
-ORDER BY date, country                          -- впорядкування по даті і країні
+ORDER BY date, country                          -- впорядкування по даті і країнах
